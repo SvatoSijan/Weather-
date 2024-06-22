@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(55, 64, 83);
+    color: rgb(160, 248, 239);
+    font-size: 1.5rem;
+}
+button{
+    background-color: rgb(62, 62, 177);
+    color: black;
+    height: 25px;
+    width: 10%;
+}
+input{
+    background-color: rgb(48, 40, 40);
+    color: rgb(160, 248, 239);
+    width: 30%;
+    height: 25px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: 8%;
+}
+#form>*{
+    margin: 5px;
+    font-weight: 550;
+}
+#result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: 8%;
+}
